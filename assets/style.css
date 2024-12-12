@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 62,5%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    width: 100vw;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-left: 50px;
+}
+
+.container {
+    font-size: 3rem;
+    font-weight: bold;
+    width: 300px;
+    margin: 0 auto;
+    background-color: lightblue;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline; /* Effet au survol */
+  }
+
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-color: crimson; */
+  }
+
+  .courhtml {
+    justify-content: center;
+
+  }
+
+  p {
+    width: 700px;
+    margin: 5rem;
+  }
